@@ -1,11 +1,7 @@
 <div class="container">
   <div class="row">
-    <div class="col-md">
-    </div>
-    <div class="col-md">
-      <h2>Simple CRUD App for Users</h2>
-    </div>
-    <div class="col-md">
+    <div class="col-md-12 text-center mt-1">
+      <h2>Sample CRUD App for Users</h2>
     </div>
   </div>
 </div>
