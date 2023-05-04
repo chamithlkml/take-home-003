@@ -30,3 +30,74 @@ in SYSTEMPATH/CodeIgniter.php on line 194.
 CRITICAL - 2023-05-04 13:34:38 --> Class 'Locale' not found
 in SYSTEMPATH/CodeIgniter.php on line 194.
  1 FCPATH/index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-04 14:52:31 --> Undefined variable: title
+in APPPATH/Views/layout.php on line 6.
+ 1 APPPATH/Views/layout.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', '/var/www/html/app/Views/layout.php', 6, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('/var/www/html/app/Views/layout.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('layout', [], true)
+ 5 APPPATH/Controllers/Home.php(11): view('layout', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 14:53:25 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH/Views/layout.php on line 13.
+ 1 APPPATH/Views/layout.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', '/var/www/html/app/Views/layout.php', 13, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('/var/www/html/app/Views/layout.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('layout', [], true)
+ 5 APPPATH/Controllers/Home.php(11): view('layout', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 14:55:43 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH/Views/layout.php on line 11.
+ 1 APPPATH/Views/layout.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', '/var/www/html/app/Views/layout.php', 11, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('/var/www/html/app/Views/layout.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('layout', [], true)
+ 5 APPPATH/Controllers/Home.php(11): view('layout', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 15:08:54 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH/Views/layout.php on line 11.
+ 1 APPPATH/Views/layout.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', '/var/www/html/app/Views/layout.php', 11, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('/var/www/html/app/Views/layout.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('layout', [], true)
+ 5 APPPATH/Controllers/Home.php(11): view('layout', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 16:00:08 --> include(home/index): failed to open stream: No such file or directory
+in APPPATH/Views/layout.php on line 11.
+ 1 APPPATH/Views/layout.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(home/index): failed to open stream: No such file or directory', '/var/www/html/app/Views/layout.php', 11, [...])
+ 2 APPPATH/Views/layout.php(11): include()
+ 3 SYSTEMPATH/View/View.php(213): include('/var/www/html/app/Views/layout.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('layout', [], true)
+ 6 APPPATH/Controllers/Home.php(10): view('layout', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 16:01:54 --> Undefined variable: pages
+in APPPATH/Views/home/index.php on line 2.
+ 1 APPPATH/Views/home/index.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pages', '/var/www/html/app/Views/home/index.php', 2, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('/var/www/html/app/Views/home/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render('home/index', null, true)
+ 5 APPPATH/Views/layout.php(11): CodeIgniter\View\View->include('home/index')
+ 6 SYSTEMPATH/View/View.php(213): include('/var/www/html/app/Views/layout.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('layout', [], true)
+ 9 APPPATH/Controllers/Home.php(10): view('layout', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
